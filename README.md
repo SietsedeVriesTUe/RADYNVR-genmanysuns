@@ -1,7 +1,7 @@
 # RADYNVR-genmanysuns
 A program to generate a Radiance sun description consisting of many mini suns.
 
-<DOI to be added>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11394339.svg)](https://doi.org/10.5281/zenodo.11394339)
 
 # SYNOPSIS
 genmanysuns.py [-h] -FP _FOLDERPATH_ -SP _FILEPATH_ -ss _SQUARE_SIDE_
@@ -34,7 +34,7 @@ files.
 
 # LICENSE AND REFERENCING
 This program has been developed by Sietse de Vries in the context of IntelLight+, an Eindhoven Engine project (partners: Signify, Eindhoven University of Technology). The program is licensed under the BSD 3-Clause "New" or "Revised" License, see the LICENSE file.
-Special thanks to John Mardaljevic for his valuable contributions during the development of this method. Please refer to this program by citing: <DOI to be added>
+Special thanks to John Mardaljevic for his valuable contributions during the development of this method. Please refer to this program by citing:[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11394339.svg)](https://doi.org/10.5281/zenodo.11394339)
 
 This program is part of RADYNVR, a Radiance tool for simulating dynamic natural lighting for VR applications. See the Public_summary_RADYNVR file for more information. RADYNVR is available for education and research purposes upon request.
 
