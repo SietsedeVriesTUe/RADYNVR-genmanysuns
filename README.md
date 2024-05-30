@@ -2,23 +2,23 @@
 A program to generate a Radiance sun description consisting of many mini suns.
 
 # SYNOPSIS
-genmanysuns.py [-h] -FP FOLDERPATH -SP FILEPATH -ss SQUARE_SIDE
+genmanysuns.py [-h] -FP _FOLDERPATH_ -SP _FILEPATH_ -ss _SQUARE_SIDE_
 
 # DESCRIPTION
 Generates a RADIANCE sun description of many small suns, based on a RADIANCE sun description of one sun. The program simulates an image of a sun, and uses the pixels of this image to generate sun direction vectors. The radiance of each small sun is adapted to achieve approximately equal irradiance in the scene, compared to the original sun description. To run the program, template files are needed. A solar angular opening of 0.533 degrees is assumed.
 Special thanks to Prof. John Mardaljevic for his valuable contributions during the development of this program.
 
 # OPTIONS
-- FP folderpath A Path to a folder with template files for genmanysuns
-- SP filepath A path to a RADIANCE sun description file
-- ss res The dimension (in pixels) of the side of the square on which the suns should be based. A dimension of 32 pixels results in 632 suns, which is deemed adequate for most applications.
-- h Print list of command line options
+- -FP _folderpath_   A Path to a folder with template files for genmanysuns
+- -SP _filepath_     A path to a RADIANCE sun description file
+- -ss _res_          The dimension (in pixels) of the side of the square on which the suns should be based. A dimension of 32 pixels results in 632 suns, which is deemed adequate for most applications.
+- -h                 Print list of command line options
 
 # EXAMPLES
 Generate a RADIANCE sun description of 632 small suns:
-python genmanysuns.py -FP folderpath -SP filepath -ss 32
+python genmanysuns.py -FP _folderpath_ -SP _filepath_ -ss _32_
 Generate a RADIANCE sun description of 164 small suns:
-python genmanysuns.py -FP folderpath -SP filepath -ss 16
+python genmanysuns.py -FP _folderpath_ -SP _filepath_ -ss _16_
 
 # DEPENDENCIES
 - This program was designed and tested for Windows environments. It may encounter
